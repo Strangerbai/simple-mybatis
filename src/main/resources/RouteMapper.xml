@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.mybatis.core.mapper.RouteMapper">
+    <select id="getRouteById" resultType="com.mybatis.core.model.Route">
+        select * form t_route where id = ?
+    </select>
+</mapper>
